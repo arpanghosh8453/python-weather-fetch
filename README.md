@@ -6,7 +6,7 @@ Use the following docker compose. You must already have Influxdb setup and runni
 ```
 version: '3.4'
 services:
-  python-speedtest:
+  python-weather-fetch:
     restart: unless-stopped
     image: thisisarpanghosh/python-weather-fetch:latest
     container_name: python-weather-fetch
