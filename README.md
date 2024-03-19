@@ -1,6 +1,8 @@
 # python-weather-fetch
 A script for pulling weather data from pirateweather API to influxdb
 
+Get an API token from here : https://pirate-weather.apiable.io/
+
 Use the following docker compose. You must already have Influxdb setup and running
 
 ```
